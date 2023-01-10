@@ -1,0 +1,60 @@
+   body {
+    background-color: rgb(250, 245, 204);
+    color: rgb(243, 177, 79);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin-bottom: 180px;
+}
+#albums { background-color: rgba(165, 193, 247, 0.82);
+
+}
+a {color: rgba(165, 193, 247, 0.82);
+
+}
+#merch { background-color: rgba(165, 193, 247, 0.82); }
+#home { background-color: rgba(165, 193, 247, 0.82);}
+#merch {background-color: rgba(165, 193, 247, 0.82);}
+#group {background-color: rgba(165, 193, 247, 0.82);}
+
+nav li
+{
+    display: inline-block;
+}
+nav
+{
+    background-color: rgb(243, 177, 79);
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(165, 193, 247, 0.82);;
+    color: blue;
+}
+section {
+    padding: 20px;
+}
+
+img 
+{
+    width: 100%;
+}
+#group img 
+{
+    width: 100%;
+}
+
+header {
+    background-image: url(Images/_Black\ &\ White\ ATEEZ\ Logo_\ Sticker\ _\ Redbubble.jpg );
+    background-size: 100%;
+    background-position: center;
+}
+#home img {
+    display: block;
+}
+footer img {width: 10%;}
