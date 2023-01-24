@@ -1,0 +1,19 @@
+#about 
+{
+    display: flex;
+    padding: 4%;
+    
+}
+.left {
+    flex: 3;
+}
+.right 
+{
+    flex: 7;
+}
+header, main, footer
+{
+    background-color: azure;
+    border-bottom: 2px; 
+    margin: 10%;
+}
