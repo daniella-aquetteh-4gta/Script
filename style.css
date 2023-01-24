@@ -1,24 +1,36 @@
 body
 {
     background-color: darkblue;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover 
+{
+    color: navy;
 }
 
-#about 
-{
-    display: flex;
-    padding: 4%;
-    
-}
 .left {
     flex: 3;
 }
 .right 
 {
     flex: 7;
+    border-left: 2px solid darkblue;
+
 }
 header, main, footer
 {
     background-color: cornflowerblue;
     border-bottom: 2px; 
     margin: 10%;
+   
 }
+#about 
+{
+    display: flex;
+    padding: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
