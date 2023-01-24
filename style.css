@@ -1,3 +1,8 @@
+body
+{
+    background-color: darkblue;
+}
+
 #about 
 {
     display: flex;
@@ -13,7 +18,7 @@
 }
 header, main, footer
 {
-    background-color: azure;
+    background-color: cornflowerblue;
     border-bottom: 2px; 
     margin: 10%;
 }
