@@ -8,6 +8,9 @@ a:hover
 {
     color: navy;
 }
+.col {
+    padding: 4%;
+}
 
 .left {
     flex: 3;
@@ -28,8 +31,11 @@ header, main, footer
 #about 
 {
     display: flex;
-    padding: 5%;
     font-family: 'Times New Roman', Times, serif;
+}
+header 
+{ 
+    padding: 5%;
 }
 
 
