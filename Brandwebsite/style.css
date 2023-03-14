@@ -1,0 +1,54 @@
+@import url("https://use.typekit.net/okd0pji.css");
+
+* {
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+    font-family: "apolline", serif;
+
+}
+
+header {
+    background-color: saddlebrown;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+}
+
+img {
+    width: 80px;
+}
+
+video {
+    width: 100%;
+}
+header input {
+    margin-left: 10px;
+padding: 4px 10px;
+border-radius: 20px;
+width: 100px;
+}
+header i {
+    width: 20px;
+}
+header i:hover {
+   color: burlywood;
+}
+header nav li a {
+    color: black;
+    padding: 5px;
+}
+header nav li a:hover{
+    color: burlywood;
+}
