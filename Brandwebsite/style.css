@@ -20,14 +20,18 @@ header {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
 }
+
+
 
 header nav li {
     display: inline;
 }
 
 img {
-    width: 80px;
+    width: 100px;
 }
 
 header input {
@@ -56,4 +60,11 @@ main {
 
 video {
     width: 100%;
+}
+footer {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 4rem;
 }
