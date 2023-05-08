@@ -1,9 +1,9 @@
 @import url("https://use.typekit.net/okd0pji.css");
 
 * {
- margin: 0%;
- padding: 0%;
- box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,14 +16,21 @@ header {
     background-color: saddlebrown;
     padding: 10px
 }
+header img {
+    width: 15%;
+}
 
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 3rem;
 }
 
+.flex-item {
+    flex: 1;
+}
 
 
 header nav li {
@@ -31,26 +38,32 @@ header nav li {
 }
 
 img {
-    width: 100px;
+    width: 100%;
 }
+
+#featured img {}
 
 header input {
     margin-left: 10px;
-padding: 4px 10px;
-border-radius: 20px;
-width: 100px;}
+    padding: 4px 10px;
+    border-radius: 20px;
+    width: 100px;
+}
 
 header i {
     width: 20px;
 }
+
 header i:hover {
-   color: burlywood;
+    color: burlywood;
 }
+
 header nav li a {
     color: black;
     padding: 5px;
 }
-header nav li a:hover{
+
+header nav li a:hover {
     color: burlywood;
 }
 
@@ -61,10 +74,27 @@ main {
 video {
     width: 100%;
 }
+
 footer {
     padding: 20px;
 }
 
 section {
     margin-bottom: 4rem;
+}
+
+h2 {
+    margin-bottom: 4rem;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    background-color: burlywood;
+    color: saddlebrown;
 }
