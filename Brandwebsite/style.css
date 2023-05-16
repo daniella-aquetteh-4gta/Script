@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: burlywood;
+    background-color: rgb(250, 239, 216);
     font-family: "apolline", serif;
 
 }
@@ -53,7 +53,7 @@ header i {
 }
 
 header i:hover {
-    color: burlywood;
+    background-color: rgb(250, 239, 216);;
 }
 
 header nav li a {
@@ -62,7 +62,7 @@ header nav li a {
 }
 
 header nav li a:hover {
-    color: burlywood;
+    background-color: rgb(250, 239, 216);
 }
 
 main {
@@ -95,6 +95,24 @@ figcaption {
     left: 25%;
     border-radius: 20px;
     padding: 10px;
-    background-color: burlywood;
+    background-color: rgb(250, 239, 216);
     color: saddlebrown;
 }
+
+footer {
+    background-color: burlywood;
+    padding: 3rem;
+}
+footer a {
+    color: saddlebrown;
+
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li:first-child a {
+    font-weight:900
+}
+
