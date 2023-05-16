@@ -53,7 +53,7 @@ header i {
 }
 
 header i:hover {
-    background-color: rgb(250, 239, 216);;
+    color: burlywood;
 }
 
 header nav li a {
@@ -116,3 +116,6 @@ footer li:first-child a {
     font-weight:900
 }
 
+header nav li a:hover {
+  background-color: rgb(250, 239, 216);;  
+}
