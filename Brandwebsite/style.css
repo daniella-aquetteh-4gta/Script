@@ -105,7 +105,7 @@ footer {
 }
 footer a {
     color: saddlebrown;
-
+    text-decoration: none;
 }
 
 footer li {
@@ -116,6 +116,6 @@ footer li:first-child a {
     font-weight:900
 }
 
-header nav li a:hover {
+footer li a:hover {
   background-color: rgb(250, 239, 216);;  
 }
