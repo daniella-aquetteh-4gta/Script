@@ -112,8 +112,8 @@ footer li {
     list-style: none;
 }
 
-footer li:first-child a {
-    font-weight:900
+footer li:first-child {
+    font-weight:900;
 }
 
 footer li a:hover {
