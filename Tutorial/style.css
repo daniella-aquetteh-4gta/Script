@@ -3,6 +3,7 @@
 :root {
     --bgc-01: hsl(0, 0%, 100%);
     --bgc-02: hsl(146, 79%, 80%);
+    --bgc-03: hsl(189, 78%, 80%);
     --txt-01: hsl(0, 0%, 90%);
 }
 
@@ -26,7 +27,7 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     align-items: center;
-    background-color: hsl(146, 79%, 80%);
+    background-color: var(--bgc-02);
     padding: 1rem;
 }
 header li {
@@ -49,5 +50,5 @@ header img {
 
 footer {
     padding: 2rem;
-    background-color: hsl(189, 78%, 80%) ;
+    background-color: var(--bgc-03) ;
 }
